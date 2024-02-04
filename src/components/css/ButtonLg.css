@@ -1,0 +1,48 @@
+.button-lg {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 12px 24px;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.button-lg p {
+    color: var(--white-50);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button-lg.purple {
+    background-color: var(--purple);
+}
+
+.button-lg.purple:hover {
+    background-color: #c75af6;
+}
+
+.button-lg.blue {
+    background-color: var(--dark-blue);
+}
+
+.button-lg.blue:hover {
+    background-color: #7c91f9;
+}
+
+.button-lg.grey {
+    background-color: var(--black-75);
+}
+
+.button-lg.grey:hover {
+    background-color: #656ea3;
+}
+
+.button-lg.red {
+    background-color: var(--red);
+}
+
+.button-lg.red:hover {
+    background-color: #e98888;
+}

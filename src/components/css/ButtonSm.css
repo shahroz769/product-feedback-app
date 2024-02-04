@@ -1,0 +1,50 @@
+.button-sm {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 6px 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.button-sm p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.button-sm.normal {
+    background-color: var(--white-50);
+    color: var(--dark-blue);
+}
+
+.button-sm.normal:hover {
+    background-color: #cfd7ff;
+    color: var(--dark-blue);
+}
+
+.button-sm.normal:active {
+    background-color: var(--dark-blue);
+    color: var(--white-100);
+}
+
+.button-sm.no-hover {
+    background-color: var(--white-50);
+    color: var(--dark-blue);
+}
+
+.button-sm.upvote {
+    background-color: var(--white-50);
+    color: var(--black-75);
+}
+
+.button-sm.upvote:hover {
+    background-color: #cfd7ff;
+    color: var(--black-75);
+}
+
+.button-sm.upvote:active {
+    background-color: var(--dark-blue);
+    color: var(--white-100);
+}
